@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traverse Computation Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add this style block to increase font size and input box size */
+        body {
+            font-size: 24px; /* Increase font size to 24px */
+        }
+        input[type="number"] {
+            width: 50%; /* Increase input box width to 50% of parent element */
+            height: 40px; /* Increase input box height to 40px */
+            font-size: 24px; /* Increase input box font size to 24px */
+        }
+        label, p, button {
+            font-size: 24px; /* Increase label, paragraph, and button font size to 24px */
+        }
+        button {
+            height: 40px; /* Increase button height to 40px */
+            width: 100px; /* Increase button width to 100px */
+        }
+        h1 {
+            font-size: 40px; /* Increase h1 font size to 36px */
+            font-weight: bold; /* Make h1 bold */
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: rgb(64, 0, 255);">Traverse Computation</h1>
+    <form id="firstForm" align="middle">
+        <label for="stations">Enter Number of Traverse Stations:</label> <br>
+        <input type="number" id="stations" name="stations" min="3" required><br><br>
+        <button type="submit" >Next</button>
+    </form> <br>
+    <!--<img src="Images/andys-traverse-diagram-1-min.jpg" align="middle" width="600 px" height="400px"/>-->
+    <script src="scripts/first_interface.js"></script>
+</body>
+</html>
